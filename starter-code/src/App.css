@@ -1,0 +1,53 @@
+
+body{
+  margin:0;
+  padding:0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter !important;
+}
+
+header {
+  display:flex;
+  justify-content: space-between;
+}
+
+
+.App{
+  width:80%;
+  margin:  0 auto;
+}
+
+.intro-container {
+  background-color:#1F253F;
+  color: white;
+  padding: 20px 60px 65px;
+  height: 500px;
+}
+.intro-container h1 {
+  padding-top:40px;
+  margin-bottom:0;
+  font-size:50px;
+}
+
+.icons{
+  display:flex;
+  justify-content: center;
+  margin:0 auto;
+  width: 80%;
+  color: #1F253F;
+  /* padding: 80px 80px; */
+}
+
+.icon-details {
+  padding: 10px;
+  /* width: 25%; */
+  /* text-align: center;   */
+}
+
+.awesome-button{
+  margin-top: 50px;
+  padding: 15px;
+  border-radius: 5%;
+  font-size: 20px;
+  color: #1F253F;
+}
